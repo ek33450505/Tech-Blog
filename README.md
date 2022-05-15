@@ -41,3 +41,37 @@ WHEN I click on the logout option in the navigation
 THEN I am signed out of the site
 WHEN I am idle on the site for more than a set time
 THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
+
+## Table of Contents
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Visualization](#visualization)
+  - [Deployment](#deployment)
+  - [Contributors](#contributors)
+  - [Tests](#tests)
+  - [Contact](#contact)
+
+  ## Installation: 
+  To install this program please enter: (git clone https://github.com/ek33450505/tech-blog) in your computers terminal and open in your code editor. Please ensure you have Node.js installed on you computer of this repository will not work. To run the application you must also enter [npm install] in your command line to install the correct npm packages.
+ 
+  ## Visualization:
+
+  ## Deployment:
+  You can view the delployed application here: https://salty-beach-88902.herokuapp.com/
+
+  ## License: 
+
+  There is no license for this project, you are free to use or modify this application.
+
+  ## Contributors:
+  
+  You can contribute to this project by cloning to your computer. If you make any helpful contribution please let me know so we can continue to develop and improve this application.
+
+  ## Tests:
+  
+  After cloning this project to your computer and running [npm install], you can test API Routes by running [npm start] and connect to your localhost
+
+  ## Contact:
+
+  - GitHub Username: [ek33450505](https://github.com/ek33450505)
+  - Email: ek33450505@gmail.com
