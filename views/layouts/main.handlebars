@@ -15,8 +15,12 @@
         <a href="/">Tech-Blog</a>
       </h1>
       <nav>
-        <a href="/login">login</a>
-      </nav>
+          {{#if loggedIn}}
+            <button id="logout" class="btn-no-style">logout</button>
+          {{else}}
+            <a href="/login">login</a>
+          {{/if}}
+    </nav>
     </header>
     <main>
       {{{ body }}}
@@ -25,6 +29,10 @@
       Bringing Tech People Together Since 2022!
     </footer>
   </div>
+
+  {{#if loggedIn}}
+<script src="/javascript/logout.js"></script>
+{{/if}}
 
 </body>
 
